@@ -1,0 +1,42 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   700},
+        {"name": "armor_durability","value":    11},
+        {"name": "enchantability",  "value":    40},
+        {"name": "harvest_level",   "value":     3},
+        {"name": "harvest_speed",   "value":    12},
+        {"name": "melee_damage",    "value":     7},
+        {"name": "magic_damage",    "value":     3},
+        {"name": "attack_speed",    "value":   0.1},
+        {"name": "armor",           "value":    18},
+        {"name": "armor_toughness", "value":     1},
+        {"name": "magic_armor",     "value":     3},
+        {"name": "ranged_damage",   "value":     3},
+        {"name": "ranged_speed",    "value":   0.1},
+        {"name": "rarity",          "value":    75},
+        {"name": "chargeability",   "value":   1.5}
+    ],
+    "traits": [
+
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "eio:alloy_ingot_9",
+            "oredict": "ingotConstructionAlloy"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "002A00",
+        "broken_color": "002A00",
+        "name_color": "dark_green",
+        "override_localization": "ConstructionAlloy"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 3,
+        "tool_blacklist": []
+    }
+}

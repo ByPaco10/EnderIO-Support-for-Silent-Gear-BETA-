@@ -1,0 +1,42 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   100},
+        {"name": "armor_durability","value":    10},
+        {"name": "enchantability",  "value":    25},
+        {"name": "harvest_level",   "value":     2},
+        {"name": "harvest_speed",   "value":     1},
+        {"name": "melee_damage",    "value":     6},
+        {"name": "magic_damage",    "value":     2},
+        {"name": "attack_speed",    "value":  -0.1},
+        {"name": "armor",           "value":     9},
+        {"name": "armor_toughness", "value":     0},
+        {"name": "magic_armor",     "value":     2},
+        {"name": "ranged_damage",   "value":     1},
+        {"name": "ranged_speed",    "value":     0},
+        {"name": "rarity",          "value":    50},
+        {"name": "chargeability",   "value":   0.2}
+    ],
+    "traits": [
+
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "eio:alloy_ingot_7",
+            "oredict": "ingotSoularium"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "000000",
+        "broken_color": "000000",
+        "name_color": "black",
+        "override_localization": "Soularium"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 3,
+        "tool_blacklist": []
+    }
+}

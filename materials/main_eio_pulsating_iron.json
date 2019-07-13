@@ -1,0 +1,42 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   400},
+        {"name": "armor_durability","value":     9},
+        {"name": "enchantability",  "value":    50},
+        {"name": "harvest_level",   "value":     2},
+        {"name": "harvest_speed",   "value":    14},
+        {"name": "melee_damage",    "value":     5},
+        {"name": "magic_damage",    "value":     2},
+        {"name": "attack_speed",    "value":   0.2},
+        {"name": "armor",           "value":    16},
+        {"name": "armor_toughness", "value":     0},
+        {"name": "magic_armor",     "value":     1},
+        {"name": "ranged_damage",   "value":     2},
+        {"name": "ranged_speed",    "value":     0},
+        {"name": "rarity",          "value":    70},
+        {"name": "chargeability",   "value":   1.4}
+    ],
+    "traits": [
+
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "eio:alloy_ingot_5",
+            "oredict": "ingotPulsatingIron"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "002A00",
+        "broken_color": "002A00",
+        "name_color": "dark_green",
+        "override_localization": "PulsatingIron"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}

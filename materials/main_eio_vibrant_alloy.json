@@ -1,0 +1,43 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   500},
+        {"name": "armor_durability","value":    10},
+        {"name": "enchantability",  "value":    80},
+        {"name": "harvest_level",   "value":     3},
+        {"name": "harvest_speed",   "value":    16},
+        {"name": "melee_damage",    "value":     6},
+        {"name": "magic_damage",    "value":     3},
+        {"name": "attack_speed",    "value":   0.2},
+        {"name": "armor",           "value":    16},
+        {"name": "armor_toughness", "value":     0},
+        {"name": "magic_armor",     "value":     6},
+        {"name": "ranged_damage",   "value":     2},
+        {"name": "ranged_speed",    "value":  0.25},
+        {"name": "rarity",          "value":   100},
+        {"name": "chargeability",   "value":   1.6}
+    ],
+    "traits": [
+        {"name": "silentgear:chipping", "level": 2}
+
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "eio:alloy_ingot_2",
+            "oredict": "ingotVibrantAlloy"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "002A00",
+        "broken_color": "002A00",
+        "name_color": "dark_green",
+        "override_localization": "VibrantAlloy"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 3,
+        "tool_blacklist": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":   400},
+        {"name": "armor_durability","value":    16},
+        {"name": "enchantability",  "value":    20},
+        {"name": "harvest_level",   "value":     2},
+        {"name": "harvest_speed",   "value":     8},
+        {"name": "melee_damage",    "value":     3},
+        {"name": "magic_damage",    "value":     2},
+        {"name": "attack_speed",    "value": -0.05},
+        {"name": "armor",           "value":    17},
+        {"name": "armor_toughness", "value":   0.5},
+        {"name": "magic_armor",     "value":     1},
+        {"name": "ranged_damage",   "value":     2},
+        {"name": "ranged_speed",    "value": -0.25},
+        {"name": "rarity",          "value":    24},
+        {"name": "chargeability",   "value":   0.8}
+    ],
+    "traits": [
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "eio:alloy_ingot_0",
+            "oredict": "ingotElectricalSteel"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "iron",
+        "texture_color": "170170170",
+        "broken_color": "170170170",
+        "name_color": "gray",
+        "override_localization": "ElectricalSteel"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}
